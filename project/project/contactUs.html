@@ -1,0 +1,108 @@
+﻿<!doctype html>
+<html lang="he-il">
+<head>
+    <meta charset="utf-8" />
+    <title>צור קשר - מה בשוק?</title>
+    <meta name="description" content="צור קשר, טופס להשארת פרטים עם הודעה" />
+    <meta name="keywords" content="טופס, יצירת קשר, הערות, פרטים, אישיים, מילוי" />
+    <meta name="author" content="שלי שמאי, חלי אדרי, חלי אברהם" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+</head>
+<body>
+    <div id="container3">
+        <div id="lo1">
+            <div id="logo">
+                <a href="index.html"><img src="images/final.png" width="200" height="60" alt="מה בשוק" title="מה בשוק" /></a>
+            </div>
+            <div id="logo-text">
+                <p>מיטב השווקים שיש בארץ</p>
+            </div>
+        </div>
+            <div id="marketLocation"><a href="marketLocation.html">כל השווקים לפי אזורים</a></div>
+       
+        <header>
+
+            <nav id="innerPage">
+                <ul>
+                    <li><a href="culinary.html">קולינריה</a></li>
+                    <li id="cursor"><a href="#">אופנה</a></li>
+                    <li id="cursor"><a href="#">פירות וירקות</a></li>
+                    <li id="cursor"><a href="#">פשפשים ויד 2</a></li>
+                    <li id="cursor"><a href="#">כלי בית ונוי</a></li>
+                    <li><a href="https://shellysha.github.io/WebDevelopmentCourse/mabashuk/MaBaShuk%203.7.html">הכל מהכל</a></li>
+                </ul>
+            </nav>
+
+            <nav id="breadCrumbs">
+                <ul>
+                    <li> <a href="index.html"> דף הבית </a> </li>
+                    <li> <a href="contactUs.html"> צור קשר </a> </li>
+                </ul>
+            </nav>
+
+
+        </header>
+
+        <section>
+            <div id="box1">
+                <h1> צור קשר</h1>
+
+                <br />
+                <form>
+                    <input type="hidden" id="myEmail" name="name" value="mailto:shellyshamay@gmail.com">
+                    <div id="form">
+                        <label for="gender">
+                            מין
+                            <select id="mySelection">
+                                <option value=“1” selected> נקבה </option>
+                                <option value=“2”> זכר </option>
+                            </select>
+                        </label>
+
+                        <br />
+                        <label id="name">
+                            שם מלא<br />
+                            <input type="text" id="myname" placeholder="הקלד כאן את שמך" />
+                        </label>
+
+                        <br />
+                        <label id="email">
+                            כתובת האימייל<br />
+                            <input type="text" id="myemail" placeholder="example@gmail.com" />
+                        </label>
+
+                        <br />
+                        <label id="freetext">
+                            נשמח להערות או הארות :)<br />
+                            <textarea id="myArea" row="10" placeholder="נא הזן את גוף ההודעה"></textarea>
+                        </label>
+
+                        <br />
+                        <input type="submit" id="SendForm" value=שלח />
+
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <nav id="footer">
+            <ul>
+                <li> <a href="about.html"> אודות </a> </li>
+                <li> <a href="siteMap.html"> מפת אתר </a> </li>
+                <li> <a href="contactUs.html"> צור קשר </a> </li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>

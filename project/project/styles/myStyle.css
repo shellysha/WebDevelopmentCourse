@@ -1,0 +1,801 @@
+﻿body {
+     font-family: Calibri;
+    direction: rtl;
+    margin: 0 auto;
+    width: 960px;
+ 
+    background-image:url("../images/background.jpg"); background-repeat:no-repeat; background-size:cover;
+}
+/*כל הקטגוריות בשרונה- דף פנימי קולינריה בשרונה*/
+#saronaAll2{
+    position:relative;
+}
+#container{
+    width:960px;
+    min-height:90vh;
+    position:relative;
+   
+}
+#container3{
+    min-height:95vh;
+    width:960px;
+}
+#container2{
+    width:800px;
+}
+/*לוגו*/
+#logo{
+    display:inline;
+       left: 910px;
+    position:absolute;
+}
+#logo-text{
+    position:absolute;
+ top: 50px;
+    right: -120px;
+}
+#logo-text p{
+    font-size:14px;
+}
+/*לוגו דף בית*/
+
+    #lo{
+        position:relative;
+    }
+    #lo1{
+        position:relative;
+    }
+   #logoH{
+       display:inline;
+    position:absolute;
+     left: 360px;
+    top: -140px;
+    }
+   #logo-text2{
+    position:absolute;
+        top: -74px;
+    left: 421px;
+}
+   #logo-text2 p{
+       font-size:19px;
+   }
+/*רקע לבן*/
+#box3{
+   
+    
+    border-style:none;
+    width:830px;
+    height:250px;   
+    background-color:rgba(255, 255, 255, 0.86);
+    padding:5px;
+    margin:45px;
+
+}
+#box1{
+   left: 510px;
+    position: absolute;
+    border-style:none;
+    width:170px;
+    height:340px;   
+    background-color:rgba(255, 255, 255, 0.86);
+    padding:5px;
+    margin:45px;
+
+}#box2{
+    border-style:none;
+    height:380px;   
+    background-color:rgba(255, 255, 255, 0.86);
+    padding:5px;
+    margin:45px;
+}
+
+ #box4{
+   border-style:none;
+    height:140px;   
+    background-color:rgba(255, 255, 255, 0.0);
+    padding:5px;
+    margin:45px;
+ }
+ #box4 >p{
+     font-size:16px;
+  margin-top:10px;
+ }
+
+/*שרונה הכל*/
+#cul2 img{
+    border:0px solid #ffd5c5;
+    height:70px;
+    background-color:#ffd5c5;
+
+
+}
+#cul1{
+    border:0px solid #ffd5c5;
+    height:70px;
+    background-color:#ffd5c5;
+    margin-bottom:20px;
+}
+#cul >h2{
+    position:absolute;
+      left: 763px;
+    top: 345px;
+}
+#cul > p{
+    position:absolute;
+    right: 360px;
+    top: 339px;
+}
+#noy img{
+    border:0px solid #ffd5c5;
+    height:70px;
+    background-color:#ffd5c5;
+}
+#noy3{
+    border:0px solid #ffd5c5;
+    height:70px;
+    background-color:#ffd5c5;
+    margin-bottom:20px;
+
+}
+#noy2 > h2{
+        position:absolute;
+           left: 740px;
+    top: 433px;
+}
+#noy2 > p{
+position:absolute;
+right:360px;
+top:437px;
+}
+#fru1 img{
+    border:0px solid #ffd5c5;
+    height:70px;
+    background-color:#ffd5c5;
+}
+#fru{
+    border:0px solid #ffd5c5;
+    height:70px;
+    background-color:#ffd5c5;
+    margin-bottom:20px;
+}
+#fru2 > h2{
+  position:absolute;
+     left: 724px;
+    top: 523px;
+}
+#fru2 >p{
+    position:absolute;
+    right:360px;
+    top:527px;
+}
+#box5 {
+    border-style: none;
+    height: 115px;
+    background-color: rgba(255, 255, 255, 0.90);
+    margin: 55px;
+    padding: 5px;
+  
+}
+  
+#box5 ul{
+    list-style: none;
+    
+}
+#box5 li  a{
+    text-decoration:underline;
+}
+#box{
+    border-style:none;
+    height:670px;   
+    background-color:rgba(255, 255, 255, 0.86);
+    padding:5px;
+    margin:45px;
+}
+#box2 ul {
+    list-style:none;
+}
+h3{
+    font-size:22px;
+    margin-top:20px;
+}
+/*ניווט דף פנימי*/
+#innerPage ul{
+    list-style:none;
+    
+}
+#innerPage ul li{
+    display:inline-block;
+    float:right;
+    text-align:center;
+}
+
+#innerPage ul li a{
+    display:block;
+    color:#464544;
+    width:120px;
+    padding: 10px 10px;
+    margin-top:30px;
+    margin-right:10px;
+    text-decoration:none;
+    
+}
+#innerPage ul li a:hover{
+    background-color:#ffd5c5;
+    border-radius:5px;
+}
+/*תפריט פירורי לחם*/
+#breadCrumbs {
+      height:30px;
+      color:#464544;
+      padding-top: 50px;
+      width:500px;
+}
+#breadCrumbs ul li{
+    display:block;
+    float:right;
+    position:relative;
+    right:50px;
+}
+#breadCrumbs ul li a:hover{
+    color:blue;
+    text-decoration:underline;
+}
+#breadCrumbs ul li a:active{
+    color:blue;
+    text-decoration:none;
+}
+ #breadCrumbs ul li:after{
+     content:" > ";
+ }
+ #breadCrumbs ul li:last-child:after{
+     content:"";
+ }
+/*ריבועים לשווקים*/
+.saronamarket {
+    font-size:16px;
+    border-style:none;
+    height:70px;   
+    background-color:rgba(75, 146, 140, 0.85);
+    padding:5px;
+margin:45px;
+}
+.saronamarket > a {
+    display:inline;
+}
+.saronamarket > a > p{
+    font-size:11px;
+}
+ /*כותרות*/
+h1{
+   font-size:28pt;
+   text-align:right;
+   
+}
+h2{
+    text-align:right;
+    font-size:20pt;
+    position:relative;
+ 
+}
+ p{
+    text-align:right;
+    font-size:13pt;
+  
+}
+
+/* טופס צור קשר*/
+
+form {
+    text-align: right;
+}
+
+#myArea {
+    height: 150px;
+    width: 150px;
+}
+
+#SendForm, #freetext, #email, #name, #mySelection, #gender, #myArea {
+    text-align: center;
+   
+    margin: 0 auto;
+}
+
+
+#bullet {
+    padding-right:30px;
+    padding-top:50px;
+}
+
+
+#telem {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#odot {
+    background-repeat: no-repeat;
+    float: left;
+    height: 450px;
+    position:relative;
+    left:45px;
+    top:100px;
+}
+.H{
+    margin-top:30px;
+}
+.P{
+    padding-bottom:30px;
+}
+/* מפת אתר*/
+table{
+    margin-top:100px;
+}
+table, td{
+    vertical-align:top;
+    text-align:justify;
+}
+table, th, td{
+   height:25px;
+}
+
+#cursor a{
+    cursor:no-drop;
+    color:black;
+    
+}
+ #footer{
+ 
+
+}
+#footer ul{
+    list-style:none;
+}
+ #footer ul li{
+         display:block;
+         float:right;
+}
+ #footer ul li a{
+    border-style:none;
+    background-color:rgba(255, 255, 255, 0.86);
+padding:5px;
+margin:auto;
+}
+
+ #marketLocation a{
+   
+    left: 10px;
+    position: absolute;
+}
+ #marketLocation a:hover{
+     background-color:#ffd5c5;
+ }
+ #homePage a span{
+     position:absolute;
+     right:50%;
+     transform:translateX(50%);
+     top:-20px;
+ 
+}
+
+
+
+ #homePage a:hover span{
+       transition:all 0.3s linear;
+     top:50px;
+     font-size:30px;
+         background-color:rgba(255, 255, 255, 0.74);
+         border: solid rgba(255, 255, 255, 0.74) ;
+    border-radius: 5px;
+ }
+ #homePage ul{
+     list-style:none;
+     margin-top:150px;
+
+ }
+
+ #homePage ul li{
+     display:inline-block;
+     float:right;
+     text-align:center;
+     margin:0px;
+ }
+
+#homePage ul li a{
+    display:block;
+    color:#464544;
+    width:120px;
+    padding: 5px 5px;
+  position:relative;
+    margin-right:10px;
+    text-decoration:none;
+    font-size:12px;
+    
+}
+
+#homePage ul li:nth-child(1) a{
+background-image:url("../images/cheese.jpg");
+background-size:200px;
+background-repeat:no-repeat;
+width:130px;
+height:250px;
+}
+
+#homePage ul li:nth-child(1) a:hover{
+    background-image:url("../images/pizza.jpg");
+       background-color:rgba(255, 255, 255, 0.74);
+         border: solid rgba(255, 255, 255, 0.74) ;
+    border-radius: 5px;
+
+}
+#homePage ul li:nth-child(2) a{
+background-image:url("../images/h.jpg");
+background-size:200px;
+background-repeat:no-repeat;
+width:130px;
+height:250px;
+}
+#homePage ul li:nth-child(3) a{
+background-image:url("../images/veg.jpg");
+background-size:200px;
+background-repeat:no-repeat;
+width:130px;
+height:250px;
+}
+#homePage ul li:nth-child(4) a{
+background-image:url("../images/cher.jpg");
+background-size:200px;
+background-repeat:no-repeat;
+width:130px;
+height:250px;
+}
+#homePage ul li:nth-child(5) a{
+background-image:url("../images/yad2.jpg");
+background-size:200px;
+background-repeat:no-repeat;
+width:130px;
+height:250px;
+}
+#homePage ul li:nth-child(6) a{
+background-image:url("../images/brush.jpg");
+background-size:200px;
+background-repeat:no-repeat;
+width:130px;
+height:250px;
+}
+    #homePage ul li:nth-child(6) a:hover {
+        background-image: url("../images/staff.jpg");
+           background-color:rgba(255, 255, 255, 0.74);
+         border: solid rgba(255, 255, 255, 0.74) ;
+    border-radius: 5px;
+
+    }
+    #marketll{
+        position:relative;
+    }
+    #marketL{
+          top: 360px;
+    left: 430px;
+    position:absolute;
+    border: 4px solid #ffd5c5;
+    border-radius: 20px;
+    }
+    #marketL > a{
+        font-family:'Gveret Levin AlefAlefAlef';
+        text-align:center;
+        font-size:12pt;
+         color:#464544;
+         background-color:#ffd5c5;
+    
+    }
+   #misdo{
+          position: absolute;
+        top: -12px;
+        left:0px;
+   }
+#misdo p{
+      display: inline;
+    font-size: 22px;
+    padding: 149px;
+}
+#saronamarket, #tzafon, #pishpeshim, #carmel {
+    font-size: 16px;
+    border-style: none;
+    height: 70px;
+    background-color:#ffd5c5;
+    margin: 25px;
+}
+#saronamarket > h2{
+    position:absolute;
+           top: 45px;
+    left: 700px;
+}
+#saro{
+    position:absolute;
+     left: 465px;
+    top: 46px
+}
+
+#saro >p{
+    font-size:11pt;
+}
+#saro2{
+    position:absolute;
+    left: 60px;
+    top: 46px;
+}
+#saro2 > p{
+    font-size:11pt;
+}
+#pishpeshim > h2{
+    position:absolute;
+         top: 258px;
+    left: 870px;
+}
+#tz{
+    position:absolute;
+      left: 475px;
+    top: 141px;
+}
+
+#tz >p{
+    font-size:11pt;
+}
+#tz1{
+    position:absolute;
+    left:80px;
+    top:141px;
+}
+#tz1 > p{
+    font-size:11pt;
+}
+#tzafon > #cursor > h2{
+    position:absolute;
+              left: 738px;
+    top: 235px;
+}
+#pishpeshim > #cursor >h2{
+    position: absolute;
+   left: 674px;
+    top: 140px;
+}
+#pi{
+    position:absolute;
+    left: 467px;
+    top: 235px;
+}
+
+#pi >p{
+    font-size:11pt;
+}
+#pi1{
+    position:absolute;
+         left: 70px;
+    top: 235px;
+}
+#pi1 > p{
+    font-size:11pt;
+}
+#carmel > #cursor >h2{
+    position: absolute;
+       left: 713px;
+    top: 330px;
+}
+#ca{
+    position:absolute;
+        left: 543px;
+    top: 330px;
+}
+
+#ca >p{
+    font-size:11pt;
+}
+#ca1{
+    position:absolute;
+        left: 107px;
+    top: 330px;
+}
+#ca1 > p{
+    font-size:11pt;
+}
+/*קטגוריות מסעדות ודוכנים בעמוד פנימי קולינריה*/
+#mi{
+    position:relative;
+}
+
+
+
+/*ריבוע כל המסעדות בשרונה*/
+#boxx2{
+     font-size: 16px;
+    border-style: none;
+    height: 70px;
+    background-color: rgba(75, 146, 140, 0);
+   
+    margin: 25px;
+}
+/*עיגולים*/
+#bened img{
+    background-color:white;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size:100px;
+    background-position: left;
+    display: inline-block;
+    border: 1px solid #ffd5c5;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border-radius: 100px 100px 100px 100px;
+    margin-right: 60px;
+    padding:10px;
+}
+#fiur img{
+      background-color:white;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size:100px;
+    background-position: left;
+    display: inline-block;
+    border: 1px solid #ffd5c5;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border-radius: 100px 100px 100px 100px;
+    margin-right: 60px;
+    padding:10px;
+}
+#tiiger img{
+      background-color:white;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size:100px;
+    background-position: left;
+    display: inline-block;
+    border: 1px solid #ffd5c5;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border-radius: 100px 100px 100px 100px;
+    margin-right: 60px;
+    padding:10px;
+}
+#segev img{
+      background-color:white;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size:100px;
+    background-position: left;
+    display: inline-block;
+    border: 1px solid #ffd5c5;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border-radius: 100px 100px 100px 100px;
+    margin-right: 60px;
+    padding:10px;
+}
+
+#max img {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: left;
+    display: inline-block;
+    border: 1px solid #ffd5c5;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border-radius: 100px 100px 100px 100px;
+    margin-right: 60px;
+    padding: 10px;
+}
+#zesush img {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: left;
+    display: inline-block;
+    border: 1px solid #ffd5c5;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border-radius: 100px 100px 100px 100px;
+    margin-right: 60px;
+    padding: 10px;
+}
+#max2{ position:absolute;
+        left: 753px;
+    top: 172px;
+
+}
+#zesush{
+    position:absolute;
+    left:520px;
+    top:150px;
+}
+#ze{
+    position:absolute;
+        left: 379px;
+    top: 172px;
+}
+#segev{
+    position:absolute;
+    left:520px;
+    top:75px;
+}
+#segev2{
+    position:absolute;
+    left:370px;
+    top:90px;
+}
+#tigr{
+    position:absolute;
+       left: 677px;
+    top: 95px;
+}
+#fiur{
+    position:absolute;
+        left: 520px;
+    top: 0px;
+}
+#fiori{
+    position:absolute;
+    left:435px;
+    top:20px;
+}
+#benedi {
+    position: absolute;
+    left: 620px;
+    top: 20px;
+}
+
+#boxAll{
+         font-size: 16px;
+    border-style: none;
+    height: 222px; 
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.86);
+   
+   
+}
+#boxa{
+    border-style:none;
+      height: 400px;
+    margin: 10px;
+    padding: 1px;
+    background-color: rgba(255, 255, 255, 0.86);
+    position:relative;
+}
+#boxa1{
+     border-style:none;
+       height: 255px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.86);
+
+}
+#saronaAll{
+    position:absolute;
+    left:430px;
+    position: absolute;
+    border: 4px solid #ffd5c5;
+    border-radius: 20px;
+    top:60px;
+
+}
+#saronaAll > a{
+        text-align: center;
+    font-size: 12pt;
+    color: #464544;
+    background-color: #ffd5c5;
+        font-family: 'Gveret Levin AlefAlefAlef';
+}
+/*קופסא של קולינריה בשרונה */
+#boxxx{
+    position:relative;
+}
+.F{
+   background-image:url(../images/face.PNG);
+   display:block;
+   background-size:contain;
+   width:20px;
+    height:20px; 
+}
